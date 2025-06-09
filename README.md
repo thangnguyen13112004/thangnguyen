@@ -20,17 +20,10 @@ A professional web-based clothing shop management system built with ASP.NET MVC 
 - 🔐 Admin Authentication and Role Management
 
 ## 📸 Screenshots
-
+![alt text](image-1.png)
 ![alt text](image.png)
-
-## 🚀 How to Run
-
-1. Clone this repo
-2. Open in Visual Studio
-3. Configure connection string in `appsettings.json`
-4. Run using IIS Express or your preferred web server
 
 ## 👨‍💻 Author
 
 - Nguyễn Ngọc Thắng
-- [LinkedIn Profile](https://linkedin.com/in/your-name)
+
