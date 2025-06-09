@@ -21,8 +21,7 @@ A professional web-based clothing shop management system built with ASP.NET MVC 
 
 ## 📸 Screenshots
 
-![Dashboard Screenshot](screenshots/dashboard.png)
-![Product List](screenshots/products.png)
+![alt text](image.png)
 
 ## 🚀 How to Run
 
