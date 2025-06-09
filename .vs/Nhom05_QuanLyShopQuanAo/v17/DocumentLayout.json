@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\NgoQuocDoanh\\Downloads\\Documents\\LapTrinhWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE91EEC-3415-46E1-8600-0F65F0927931}|Nhom05_QuanLyShopQuanAo\\Nhom05_QuanLyShopQuanAo.csproj|C:\\Users\\NgoQuocDoanh\\Downloads\\Documents\\LapTrinhWeb\\nhom05_quanlyshopquanao\\areas\\admin\\controllers\\doanhthucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAE91EEC-3415-46E1-8600-0F65F0927931}|Nhom05_QuanLyShopQuanAo\\Nhom05_QuanLyShopQuanAo.csproj|solutionrelative:nhom05_quanlyshopquanao\\areas\\admin\\controllers\\doanhthucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE91EEC-3415-46E1-8600-0F65F0927931}|Nhom05_QuanLyShopQuanAo\\Nhom05_QuanLyShopQuanAo.csproj|c:\\users\\ngoquocdoanh\\downloads\\documents\\laptrinhweb\\nhom05_quanlyshopquanao\\areas\\admin\\views\\doanhthu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAE91EEC-3415-46E1-8600-0F65F0927931}|Nhom05_QuanLyShopQuanAo\\Nhom05_QuanLyShopQuanAo.csproj|solutionrelative:nhom05_quanlyshopquanao\\areas\\admin\\views\\doanhthu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE91EEC-3415-46E1-8600-0F65F0927931}|Nhom05_QuanLyShopQuanAo\\Nhom05_QuanLyShopQuanAo.csproj|c:\\users\\ngoquocdoanh\\downloads\\documents\\laptrinhweb\\nhom05_quanlyshopquanao\\areas\\admin\\views\\donhang\\chitietdh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAE91EEC-3415-46E1-8600-0F65F0927931}|Nhom05_QuanLyShopQuanAo\\Nhom05_QuanLyShopQuanAo.csproj|solutionrelative:nhom05_quanlyshopquanao\\areas\\admin\\views\\donhang\\chitietdh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE91EEC-3415-46E1-8600-0F65F0927931}|Nhom05_QuanLyShopQuanAo\\Nhom05_QuanLyShopQuanAo.csproj|C:\\Users\\NgoQuocDoanh\\Downloads\\Documents\\LapTrinhWeb\\nhom05_quanlyshopquanao\\areas\\admin\\views\\donhang\\hienthi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAE91EEC-3415-46E1-8600-0F65F0927931}|Nhom05_QuanLyShopQuanAo\\Nhom05_QuanLyShopQuanAo.csproj|solutionrelative:nhom05_quanlyshopquanao\\areas\\admin\\views\\donhang\\hienthi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE91EEC-3415-46E1-8600-0F65F0927931}|Nhom05_QuanLyShopQuanAo\\Nhom05_QuanLyShopQuanAo.csproj|C:\\Users\\NgoQuocDoanh\\Downloads\\Documents\\LapTrinhWeb\\nhom05_quanlyshopquanao\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAE91EEC-3415-46E1-8600-0F65F0927931}|Nhom05_QuanLyShopQuanAo\\Nhom05_QuanLyShopQuanAo.csproj|solutionrelative:nhom05_quanlyshopquanao\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE91EEC-3415-46E1-8600-0F65F0927931}|Nhom05_QuanLyShopQuanAo\\Nhom05_QuanLyShopQuanAo.csproj|c:\\users\\ngoquocdoanh\\downloads\\documents\\laptrinhweb\\nhom05_quanlyshopquanao\\areas\\admin\\data\\dghang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAE91EEC-3415-46E1-8600-0F65F0927931}|Nhom05_QuanLyShopQuanAo\\Nhom05_QuanLyShopQuanAo.csproj|solutionrelative:nhom05_quanlyshopquanao\\areas\\admin\\data\\dghang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE91EEC-3415-46E1-8600-0F65F0927931}|Nhom05_QuanLyShopQuanAo\\Nhom05_QuanLyShopQuanAo.csproj|C:\\Users\\NgoQuocDoanh\\Downloads\\Documents\\LapTrinhWeb\\nhom05_quanlyshopquanao\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAE91EEC-3415-46E1-8600-0F65F0927931}|Nhom05_QuanLyShopQuanAo\\Nhom05_QuanLyShopQuanAo.csproj|solutionrelative:nhom05_quanlyshopquanao\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChiTietDH.cshtml",
+              "DocumentMoniker": "C:\\Users\\NgoQuocDoanh\\Downloads\\Documents\\LapTrinhWeb\\Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Views\\DonHang\\ChiTietDH.cshtml",
+              "RelativeDocumentMoniker": "Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Views\\DonHang\\ChiTietDH.cshtml",
+              "ToolTip": "C:\\Users\\NgoQuocDoanh\\Downloads\\Documents\\LapTrinhWeb\\Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Views\\DonHang\\ChiTietDH.cshtml",
+              "RelativeToolTip": "Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Views\\DonHang\\ChiTietDH.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGcAAACgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T04:52:43.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DGHang.cs",
+              "DocumentMoniker": "C:\\Users\\NgoQuocDoanh\\Downloads\\Documents\\LapTrinhWeb\\Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Data\\DGHang.cs",
+              "RelativeDocumentMoniker": "Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Data\\DGHang.cs",
+              "ToolTip": "C:\\Users\\NgoQuocDoanh\\Downloads\\Documents\\LapTrinhWeb\\Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Data\\DGHang.cs",
+              "RelativeToolTip": "Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Data\\DGHang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T04:37:54.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HienThi.cshtml",
+              "DocumentMoniker": "C:\\Users\\NgoQuocDoanh\\Downloads\\Documents\\LapTrinhWeb\\Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Views\\DonHang\\HienThi.cshtml",
+              "RelativeDocumentMoniker": "Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Views\\DonHang\\HienThi.cshtml",
+              "ToolTip": "C:\\Users\\NgoQuocDoanh\\Downloads\\Documents\\LapTrinhWeb\\Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Views\\DonHang\\HienThi.cshtml",
+              "RelativeToolTip": "Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Views\\DonHang\\HienThi.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T16:13:17.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\NgoQuocDoanh\\Downloads\\Documents\\LapTrinhWeb\\Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\NgoQuocDoanh\\Downloads\\Documents\\LapTrinhWeb\\Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T16:02:22.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\NgoQuocDoanh\\Downloads\\Documents\\LapTrinhWeb\\Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\NgoQuocDoanh\\Downloads\\Documents\\LapTrinhWeb\\Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAB0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T16:01:43.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\NgoQuocDoanh\\Downloads\\Documents\\LapTrinhWeb\\Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Views\\DoanhThu\\Index.cshtml",
+              "RelativeDocumentMoniker": "Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Views\\DoanhThu\\Index.cshtml",
+              "ToolTip": "C:\\Users\\NgoQuocDoanh\\Downloads\\Documents\\LapTrinhWeb\\Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Views\\DoanhThu\\Index.cshtml",
+              "RelativeToolTip": "Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Views\\DoanhThu\\Index.cshtml",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAuwHkAAACQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T16:01:29.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoanhThuController.cs",
+              "DocumentMoniker": "C:\\Users\\NgoQuocDoanh\\Downloads\\Documents\\LapTrinhWeb\\Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Controllers\\DoanhThuController.cs",
+              "RelativeDocumentMoniker": "Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Controllers\\DoanhThuController.cs",
+              "ToolTip": "C:\\Users\\NgoQuocDoanh\\Downloads\\Documents\\LapTrinhWeb\\Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Controllers\\DoanhThuController.cs",
+              "RelativeToolTip": "Nhom05_QuanLyShopQuanAo\\Areas\\Admin\\Controllers\\DoanhThuController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T15:59:23.66Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1038,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

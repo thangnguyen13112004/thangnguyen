@@ -1,0 +1,45 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Chi tiết sản phẩm - @Model.TenSanPham</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Content/Style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container my-4">
+        <h2>@Model.TenSanPham</h2>
+
+        <div class="row">
+            <div class="col-md-4">
+                <img src="@Url.Content("~/images/QuanAo/" + Model.Anh)" alt="@Model.TenSanPham" class="img-fluid" />
+            </div>
+
+            <div class="col-md-8">
+                <p><strong>Giới tính:</strong> @Model.GioiTinh</p>
+                <p><strong>Danh mục:</strong> @Model.MaDanhMuc</p>
+                <p><strong>Thương hiệu:</strong> @Model.MaThuongHieu</p>
+                <p><strong>Giá:</strong> @Model.Gia.ToString("C0")</p>
+                <p><strong>Mô tả:</strong> @Model.MoTa</p>
+
+                <div class="button-add">
+                    <form action="@Url.Action("ThemVaoGioHang", "GioHang")" method="post">
+                        <input type="hidden" name="maSanPham" value="@Model.MaSanPham" />
+                        <button type="submit" title="Thêm vào giỏ" class="action add-to-cart">
+                            Thêm vào giỏ
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

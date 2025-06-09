@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using Nhom05_QuanLyShopQuanAo.Models
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Colo Shop</title>
@@ -14,6 +16,7 @@
     <link href="~/plugins/OwlCarousel2-2.2.1/animate.css" rel="stylesheet" />
     <link href="~/styles/main_styles.css" rel="stylesheet" />
     <link href="~/styles/responsive.css" rel="stylesheet" />
+
 
 </head>
 
@@ -31,7 +34,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="top_nav_left">free shipping on all u.s orders over $50</div>
+                            <div class="top_nav_left"></div>
                         </div>
                         <div class="col-md-6 text-right">
                             <div class="top_nav_right">
@@ -40,7 +43,7 @@
                                     <!-- Currency / Language / My Account -->
 
                                     <li class="currency">
-                                        <a href="#">
+                                        @*<a href="#">
                                             usd
                                             <i class="fa fa-angle-down"></i>
                                         </a>
@@ -49,10 +52,10 @@
                                             <li><a href="#">aud</a></li>
                                             <li><a href="#">eur</a></li>
                                             <li><a href="#">gbp</a></li>
-                                        </ul>
+                                        </ul>*@
                                     </li>
                                     <li class="language">
-                                        <a href="#">
+                                        @*<a href="#">
                                             English
                                             <i class="fa fa-angle-down"></i>
                                         </a>
@@ -61,17 +64,34 @@
                                             <li><a href="#">Italian</a></li>
                                             <li><a href="#">German</a></li>
                                             <li><a href="#">Spanish</a></li>
-                                        </ul>
+                                        </ul>*@
                                     </li>
                                     <li class="account">
-                                        <a href="#">
-                                            My Account
-                                            <i class="fa fa-angle-down"></i>
-                                        </a>
-                                        <ul class="account_selection">
-                                            <li><a href="~/DangNhap/Login"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
-                                            <li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
-                                        </ul>
+                                        @if (Session["khach"] == null)
+                                        {
+                                            <a href="#" style="width:200px">
+                                                My Account
+                                                <i class="fa fa-angle-down"></i>
+                                            </a>
+                                            <ul class="account_selection">
+                                                <li><a href="~/DangNhap/XacNhanRole" style="font-size:13.7px"><i class="fa fa-sign-in" aria-hidden="true" ></i>Đăng nhập</a></li>
+                                                <li><a href="~/DangNhap/DangKy_NguoiDung" style="font-size:13.7px"><i class="fa fa-user-plus" aria-hidden="true"></i>Đăng ký</a></li>
+                                            </ul>
+                                        }
+                                        else
+                                        {
+                                            var tenkh = Session["khach"] as UserAccount;
+                                            <a href="#" style="width:200px">
+                                                 Chào,@tenkh.KhachHang.Ho @tenkh.KhachHang.Ten
+                                                <i class="fa fa-angle-down"></i>
+                                            </a>
+                                            <ul class="account_selection">
+                                                <li><a href="~/ThongTin/ThongTinNguoiDung"><i class="fa fa-sign-in" aria-hidden="true"></i>Thông tin tài khoản</a></li>
+                                                <li><a href="~/DangNhap/Logout"><i class="fa fa-user-plus" aria-hidden="true"></i>Đăng xuất</a></li>
+                                            </ul>
+
+                                        }
+
                                     </li>
                                 </ul>
                             </div>
@@ -87,24 +107,19 @@
                     <div class="row">
                         <div class="col-lg-12 text-right">
                             <div class="logo_container">
-                                <a href="#">colo<span>shop</span></a>
+                                <a href="#">Shop<span>QA</span></a>
                             </div>
                             <nav class="navbar">
                                 <ul class="navbar_menu">
-                                    <li><a href="#">home</a></li>
+                                    <li><a href="~/Home/Index">home</a></li>
                                     <li><a href="#">shop</a></li>
-                                    <li><a href="#">promotion</a></li>
-                                    <li><a href="#">pages</a></li>
-                                    <li><a href="#">blog</a></li>
-                                    <li><a href="contact.html">contact</a></li>
+                                    <li><a href="~/Home/Contact">contact</a></li>
                                 </ul>
                                 <ul class="navbar_user">
                                     <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
                                     <li class="checkout">
-                                        <a href="#">
+                                        <a href="~/GioHang/Index">
                                             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                            <span id="checkout_items" class="checkout_items">2</span>
                                         </a>
                                     </li>
                                 </ul>

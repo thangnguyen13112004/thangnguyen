@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.5, 15.5" name="ShopQuanAo">
+  <DataContextMoniker Name="/ShopQuanAoDataContext" />
+  <nestedChildShapes>
+    <classShape Id="aeb7a523-e770-40a3-8fa8-f708d4c1fe09" absoluteBounds="9, 5.875, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/ShopQuanAoDataContext/ChiTietDonHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4e7554b1-89d9-43f3-b483-6c35e5d7e37a" absoluteBounds="9.015, 6.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="27166e50-8dcd-46f5-bada-4c6618148313" absoluteBounds="9.25, 3.25, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/ShopQuanAoDataContext/DanhGia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="251e8fa6-a39e-4e5e-abc2-b81420ddb7e9" absoluteBounds="9.265, 3.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1a70ed57-f178-4a5e-80f7-cdc10b334bc3" absoluteBounds="0.75, 5.625, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/ShopQuanAoDataContext/DanhMuc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d8b9ad70-09d3-4e20-9d58-bcaef5c9b276" absoluteBounds="0.765, 6.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="80742ae5-7ba8-4b3f-b779-009128355cc8" absoluteBounds="6.25, 10, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/ShopQuanAoDataContext/DonHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b4271d63-488b-4eb1-b1da-ef53cbcf7233" absoluteBounds="6.265, 10.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b1f045a2-4806-4a5e-ad19-25f3685ed257" absoluteBounds="6.5, 0.75, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/ShopQuanAoDataContext/KhachHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1d58f956-c6ac-4846-b0b0-3dd36c5bf71e" absoluteBounds="6.515, 1.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7214d06b-93de-4401-be32-f94e1547790c" absoluteBounds="3.5, 8.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/ShopQuanAoDataContext/MaGiamGia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e680431d-cf3b-497a-9109-d5fa24450cd3" absoluteBounds="3.515, 8.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="efc30217-2da5-4e38-945f-85acffdda462" absoluteBounds="6.5, 13.125, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/ShopQuanAoDataContext/NhanVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1031f8e8-9fcf-4204-b840-29e0a641722a" absoluteBounds="6.515, 13.585, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1c354e93-0f15-4f0b-bcda-b530ab1f14ff" absoluteBounds="3.5, 4.875, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/ShopQuanAoDataContext/SanPham" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cc559a63-fd4f-4aa0-a116-45ae234d6c2c" absoluteBounds="3.515, 5.335, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bfdff494-60df-4354-8d5a-b9392b1e55bd" absoluteBounds="6.25, 4.625, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/ShopQuanAoDataContext/SanPhamMaGiamGia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0caea07a-b294-46f9-ad02-303ca4f381cf" absoluteBounds="6.265, 5.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6ac68d01-5879-4972-aa66-a07980a78f30" absoluteBounds="6.25, 7.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/ShopQuanAoDataContext/Size" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a23bb9b6-7e59-44f6-85eb-609d445781c3" absoluteBounds="6.265, 7.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0266a074-c539-4400-8d35-13071a928b8b" absoluteBounds="0.75, 3.625, 2, 1.193992513020834">
+      <DataClassMoniker Name="/ShopQuanAoDataContext/ThuongHieu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="438758ec-916b-457b-ac39-b9423fb7c679" absoluteBounds="0.765, 4.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1bf9345a-f267-4922-b3a0-4c01a2780827" absoluteBounds="3.75, 1.5, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/ShopQuanAoDataContext/UserAccount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="10307e50-eb8e-44e6-b3ab-048f43447cc9" absoluteBounds="3.765, 1.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.25 : 10.8854484049479); (10 : 10.8854484049479); (10 : 7.8381982421875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/DonHang/DonHang_ChiTietDonHang" />
+      <nodes>
+        <classShapeMoniker Id="80742ae5-7ba8-4b3f-b779-009128355cc8" />
+        <classShapeMoniker Id="aeb7a523-e770-40a3-8fa8-f708d4c1fe09" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 10.411471702474); (9.4687475 : 10.411471702474); (9.4687475 : 7.8381982421875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/DonHang/DonHang_ChiTietDonHang1" />
+      <nodes>
+        <classShapeMoniker Id="80742ae5-7ba8-4b3f-b779-009128355cc8" />
+        <classShapeMoniker Id="aeb7a523-e770-40a3-8fa8-f708d4c1fe09" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 3.46235270182292); (9.25 : 3.46235270182292)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/KhachHang/KhachHang_DanhGia" />
+      <nodes>
+        <classShapeMoniker Id="b1f045a2-4806-4a5e-ad19-25f3685ed257" />
+        <classShapeMoniker Id="27166e50-8dcd-46f5-bada-4c6618148313" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 3.29367635091146); (9.25 : 3.29367635091146)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/KhachHang/KhachHang_DanhGia1" />
+      <nodes>
+        <classShapeMoniker Id="b1f045a2-4806-4a5e-ad19-25f3685ed257" />
+        <classShapeMoniker Id="27166e50-8dcd-46f5-bada-4c6618148313" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.52922976923077 : 3.67470540364583); (6.09172976923077 : 4.11220540364583); (6.08333333333333 : 4.11220540364583 : JumpStart); (5.91666666666667 : 4.11220540364583 : JumpEnd); (5.875 : 4.11220540364583); (5.875 : 9.65360679462139); (6.25 : 10.0286067946214)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/KhachHang/KhachHang_DonHang" />
+      <nodes>
+        <classShapeMoniker Id="b1f045a2-4806-4a5e-ad19-25f3685ed257" />
+        <classShapeMoniker Id="80742ae5-7ba8-4b3f-b779-009128355cc8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.53384515384615 : 3.67470540364583); (6.40884515384615 : 3.79970540364583); (6 : 3.79970540364583); (6 : 9.718669748748); (6.281330251252 : 10)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/KhachHang/KhachHang_DonHang1" />
+      <nodes>
+        <classShapeMoniker Id="b1f045a2-4806-4a5e-ad19-25f3685ed257" />
+        <classShapeMoniker Id="80742ae5-7ba8-4b3f-b779-009128355cc8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 6.59375); (5.52604166666667 : 6.59375 : JumpStart); (5.77083333333333 : 6.59375 : JumpEnd); (5.79166666666667 : 6.59375 : JumpStart); (6.17708333333333 : 6.59375 : JumpEnd); (9 : 6.59375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/SanPham/SanPham_ChiTietDonHang" />
+      <nodes>
+        <classShapeMoniker Id="1c354e93-0f15-4f0b-bcda-b530ab1f14ff" />
+        <classShapeMoniker Id="aeb7a523-e770-40a3-8fa8-f708d4c1fe09" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 7.015625); (5.52604166666667 : 7.015625 : JumpStart); (6.17708333333333 : 7.015625 : JumpEnd); (9 : 7.015625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/SanPham/SanPham_ChiTietDonHang1" />
+      <nodes>
+        <classShapeMoniker Id="1c354e93-0f15-4f0b-bcda-b530ab1f14ff" />
+        <classShapeMoniker Id="aeb7a523-e770-40a3-8fa8-f708d4c1fe09" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 4.875); (4.5 : 4.33735270182292); (4.94791916666667 : 4.33735270182292 : JumpStart); (5.11458583333333 : 4.33735270182292 : JumpEnd); (5.52604166666667 : 4.33735270182292 : JumpStart); (5.77083333333333 : 4.33735270182292 : JumpEnd); (5.79166666666667 : 4.33735270182292 : JumpStart); (6.08333333333333 : 4.33735270182292 : JumpEnd); (9.25 : 4.33735270182292)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/SanPham/SanPham_DanhGia" />
+      <nodes>
+        <classShapeMoniker Id="1c354e93-0f15-4f0b-bcda-b530ab1f14ff" />
+        <classShapeMoniker Id="27166e50-8dcd-46f5-bada-4c6618148313" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.0312525 : 4.875); (5.0312525 : 3.95595540364583); (5.52604166666667 : 3.95595540364583 : JumpStart); (5.77083333333333 : 3.95595540364583 : JumpEnd); (5.91666666666667 : 3.95595540364583 : JumpStart); (6.08333333333333 : 3.95595540364583 : JumpEnd); (6.16464643589744 : 3.95595540364583 : JumpStart); (6.3313131025641 : 3.95595540364583 : JumpEnd); (9.25 : 3.95595540364583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/SanPham/SanPham_DanhGia1" />
+      <nodes>
+        <classShapeMoniker Id="1c354e93-0f15-4f0b-bcda-b530ab1f14ff" />
+        <classShapeMoniker Id="27166e50-8dcd-46f5-bada-4c6618148313" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 6.22199625651042); (3.5 : 6.22199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/DanhMuc/DanhMuc_SanPham" />
+      <nodes>
+        <classShapeMoniker Id="1a70ed57-f178-4a5e-80f7-cdc10b334bc3" />
+        <classShapeMoniker Id="1c354e93-0f15-4f0b-bcda-b530ab1f14ff" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 5.86099812825521); (3.5 : 5.86099812825521)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/DanhMuc/DanhMuc_SanPham1" />
+      <nodes>
+        <classShapeMoniker Id="1a70ed57-f178-4a5e-80f7-cdc10b334bc3" />
+        <classShapeMoniker Id="1c354e93-0f15-4f0b-bcda-b530ab1f14ff" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 8.40171369100561); (5.55044943490112 : 8.35126425610449 : JumpStart); (5.74642556509888 : 8.15528812590673 : JumpEnd); (5.81607443490112 : 8.08563925610449 : JumpStart); (5.93392556509888 : 7.96778812590673 : JumpEnd); (5.9375 : 7.96421369100561); (5.9375 : 5.22199625651042); (6.25 : 5.22199625651042)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/MaGiamGia/MaGiamGia_SanPhamMaGiamGia" />
+      <nodes>
+        <classShapeMoniker Id="7214d06b-93de-4401-be32-f94e1547790c" />
+        <classShapeMoniker Id="bfdff494-60df-4354-8d5a-b9392b1e55bd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 8.37985621654648); (5.55044943490112 : 8.32940678164535 : JumpStart); (5.74642556509888 : 8.1334306514476 : JumpEnd); (5.81607443490112 : 8.06378178164535 : JumpStart); (5.93392556509888 : 7.9459306514476 : JumpEnd); (5.94107443490112 : 7.93878178164535 : JumpStart); (6.05892556509888 : 7.8209306514476 : JumpEnd); (6.09375 : 7.78610621654648); (6.09375 : 5.22199625651042); (6.25 : 5.22199625651042)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/MaGiamGia/MaGiamGia_SanPhamMaGiamGia1" />
+      <nodes>
+        <classShapeMoniker Id="7214d06b-93de-4401-be32-f94e1547790c" />
+        <classShapeMoniker Id="bfdff494-60df-4354-8d5a-b9392b1e55bd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 5.58299438476563); (5.52604166666667 : 5.58299438476562 : JumpStart); (5.77083333333333 : 5.58299438476563 : JumpEnd); (5.79166666666667 : 5.58299438476562 : JumpStart); (6.17708333333333 : 5.58299438476563 : JumpEnd); (6.25 : 5.58299438476563)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/SanPham/SanPham_SanPhamMaGiamGia" />
+      <nodes>
+        <classShapeMoniker Id="1c354e93-0f15-4f0b-bcda-b530ab1f14ff" />
+        <classShapeMoniker Id="bfdff494-60df-4354-8d5a-b9392b1e55bd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 4.98599812825521); (5.52604166666667 : 4.98599812825521 : JumpStart); (5.77083333333333 : 4.98599812825521 : JumpEnd); (5.79166666666667 : 4.98599812825521 : JumpStart); (6.08333333333333 : 4.98599812825521 : JumpEnd); (6.25 : 4.98599812825521)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/SanPham/SanPham_SanPhamMaGiamGia1" />
+      <nodes>
+        <classShapeMoniker Id="1c354e93-0f15-4f0b-bcda-b530ab1f14ff" />
+        <classShapeMoniker Id="bfdff494-60df-4354-8d5a-b9392b1e55bd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 7.60659912109375); (9 : 7.60659912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/Size/Size_ChiTietDonHang" />
+      <nodes>
+        <classShapeMoniker Id="6ac68d01-5879-4972-aa66-a07980a78f30" />
+        <classShapeMoniker Id="aeb7a523-e770-40a3-8fa8-f708d4c1fe09" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 7.42829956054688); (9 : 7.42829956054688)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/Size/Size_ChiTietDonHang1" />
+      <nodes>
+        <classShapeMoniker Id="6ac68d01-5879-4972-aa66-a07980a78f30" />
+        <classShapeMoniker Id="aeb7a523-e770-40a3-8fa8-f708d4c1fe09" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 7.57355681750801); (5.55044943490112 : 7.62400625240913 : JumpStart); (5.66830056509888 : 7.74185738260689 : JumpEnd); (5.71875 : 7.79230681750801); (5.71875 : 6.81703630899439); (5.81607443490112 : 6.91436074389551 : JumpStart); (6.15267556509888 : 7.25096187409327 : JumpEnd); (6.27671369100561 : 7.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/SanPham/SanPham_Size" />
+      <nodes>
+        <classShapeMoniker Id="1c354e93-0f15-4f0b-bcda-b530ab1f14ff" />
+        <classShapeMoniker Id="6ac68d01-5879-4972-aa66-a07980a78f30" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.49846153846154 : 7.60740397135417); (5.65625 : 7.76519243289263); (5.65625 : 6.80675038686899); (5.81607443490112 : 6.96657482177011 : JumpStart); (6.15267556509888 : 7.30317595196787 : JumpEnd); (6.25 : 7.40050038686899)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/SanPham/SanPham_Size1" />
+      <nodes>
+        <classShapeMoniker Id="1c354e93-0f15-4f0b-bcda-b530ab1f14ff" />
+        <classShapeMoniker Id="6ac68d01-5879-4972-aa66-a07980a78f30" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.57817260742187); (3.9687475 : 4.57817260742187); (3.9687475 : 4.875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/ThuongHieu/ThuongHieu_SanPham" />
+      <nodes>
+        <classShapeMoniker Id="0266a074-c539-4400-8d35-13071a928b8b" />
+        <classShapeMoniker Id="1c354e93-0f15-4f0b-bcda-b530ab1f14ff" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.55465876903108 : 3.625); (2.55465876903108 : 3.25); (4.23437375 : 3.25); (4.23437375 : 4.875)]" fixedFrom="Caller" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/ThuongHieu/ThuongHieu_SanPham1" />
+      <nodes>
+        <classShapeMoniker Id="0266a074-c539-4400-8d35-13071a928b8b" />
+        <classShapeMoniker Id="1c354e93-0f15-4f0b-bcda-b530ab1f14ff" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 2.19314697265625); (6.5 : 2.19314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/UserAccount/UserAccount_KhachHang" />
+      <nodes>
+        <classShapeMoniker Id="1bf9345a-f267-4922-b3a0-4c01a2780827" />
+        <classShapeMoniker Id="b1f045a2-4806-4a5e-ad19-25f3685ed257" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 1.78407348632813); (6.5 : 1.78407348632813)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/UserAccount/UserAccount_KhachHang1" />
+      <nodes>
+        <classShapeMoniker Id="1bf9345a-f267-4922-b3a0-4c01a2780827" />
+        <classShapeMoniker Id="b1f045a2-4806-4a5e-ad19-25f3685ed257" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.609375 : 2.8862939453125); (5.609375 : 14.2027498372396); (6.5 : 14.2027498372396)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/UserAccount/UserAccount_NhanVien" />
+      <nodes>
+        <classShapeMoniker Id="1bf9345a-f267-4922-b3a0-4c01a2780827" />
+        <classShapeMoniker Id="efc30217-2da5-4e38-945f-85acffdda462" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.6875 : 2.8862939453125); (5.6875 : 13.6326224186198); (6.5 : 13.6326224186198)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShopQuanAoDataContext/UserAccount/UserAccount_NhanVien1" />
+      <nodes>
+        <classShapeMoniker Id="1bf9345a-f267-4922-b3a0-4c01a2780827" />
+        <classShapeMoniker Id="efc30217-2da5-4e38-945f-85acffdda462" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

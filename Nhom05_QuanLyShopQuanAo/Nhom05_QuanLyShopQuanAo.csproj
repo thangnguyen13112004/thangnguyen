@@ -1,4 +1,5 @@
 ﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -23,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>4.3</TypeScriptToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,6 +46,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -88,6 +94,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\1.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\TranKhangDI_css\css\AdminStyle.css" />
+    <Content Include="Content\TranKhangDI_css\css\bootstrap.min.css" />
+    <Content Include="Content\TranKhangDI_css\jquery\jquery-3.7.1.min.js" />
+    <Content Include="Content\TranKhangDI_css\js\bootstrap.bundle.js" />
+    <Content Include="Content\TranKhangDI_css\js\bootstrap.bundle.min.js" />
+    <Content Include="Content\TranKhangDI_css\js\bootstrap.esm.js" />
+    <Content Include="Content\TranKhangDI_css\js\bootstrap.esm.min.js" />
+    <Content Include="Content\TranKhangDI_css\js\bootstrap.js" />
+    <Content Include="Content\TranKhangDI_css\js\bootstrap.min.js" />
+    <Content Include="Content\TranKhangDI_css\LoginNguoiDung_css\DangKyNguoiDung.css" />
+    <Content Include="Content\TranKhangDI_css\LoginNguoiDung_css\LoginNguoiDung.css" />
     <Content Include="Global.asax" />
     <Content Include="images\banner_1.jpg" />
     <Content Include="images\banner_2.jpg" />
@@ -110,6 +129,26 @@
     <Content Include="images\product_7.png" />
     <Content Include="images\product_8.png" />
     <Content Include="images\product_9.png" />
+    <Content Include="images\QuanAo\1.jpg" />
+    <Content Include="images\QuanAo\10.jpg" />
+    <Content Include="images\QuanAo\11.jpg" />
+    <Content Include="images\QuanAo\12.jpg" />
+    <Content Include="images\QuanAo\13.jpg" />
+    <Content Include="images\QuanAo\14.jpg" />
+    <Content Include="images\QuanAo\15.jpg" />
+    <Content Include="images\QuanAo\16.jpg" />
+    <Content Include="images\QuanAo\17.jpg" />
+    <Content Include="images\QuanAo\18.jpg" />
+    <Content Include="images\QuanAo\19.jpg" />
+    <Content Include="images\QuanAo\2.jpg" />
+    <Content Include="images\QuanAo\20.jpg" />
+    <Content Include="images\QuanAo\3.jpg" />
+    <Content Include="images\QuanAo\4.jpg" />
+    <Content Include="images\QuanAo\5.jpg" />
+    <Content Include="images\QuanAo\6.jpg" />
+    <Content Include="images\QuanAo\7.jpg" />
+    <Content Include="images\QuanAo\8.jpg" />
+    <Content Include="images\QuanAo\9.jpg" />
     <Content Include="images\single_1.jpg" />
     <Content Include="images\single_1_thumb.jpg" />
     <Content Include="images\single_2.jpg" />
@@ -153,16 +192,77 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\DoanhThuController.cs" />
+    <Compile Include="Areas\Admin\Controllers\DonHangController.cs" />
+    <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Admin\Controllers\AdminController.cs" />
+    <Compile Include="Areas\Admin\Controllers\QLDMController.cs" />
+    <Compile Include="Areas\Admin\Controllers\QLSPController.cs" />
+    <Compile Include="Areas\Admin\Controllers\QLTHController.cs" />
+    <Compile Include="Areas\Admin\Controllers\QuanLyKhoHangController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ThongTinController.cs" />
+    <Compile Include="Areas\Admin\Data\CTDH.cs" />
+    <Compile Include="Areas\Admin\Data\DGHang.cs" />
+    <Compile Include="Areas\Admin\Data\SanPhamInfor.cs" />
+    <Compile Include="Controllers\DangNhapAdminController.cs" />
     <Compile Include="Controllers\DangNhapController.cs" />
+    <Compile Include="Controllers\GioHangController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ThongTinController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\NhanVien.cs" />
+    <Compile Include="Models\GioHang.cs" />
+    <Compile Include="Models\ShopQuanAo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ShopQuanAo.dbml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Default\HomeAdmin.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\Details.cshtml" />
+    <Content Include="Content\TranKhangDI_css\js\bootstrap.bundle.js.map" />
+    <Content Include="Content\TranKhangDI_css\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Content\TranKhangDI_css\js\bootstrap.esm.js.map" />
+    <Content Include="Content\TranKhangDI_css\js\bootstrap.esm.min.js.map" />
+    <Content Include="Content\TranKhangDI_css\js\bootstrap.js.map" />
+    <Content Include="Content\TranKhangDI_css\js\bootstrap.min.js.map" />
+    <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\ThongTin\ThongTinAdmin.cshtml" />
+    <Content Include="Areas\Admin\Views\DonHang\ChiTiet.cshtml" />
+    <Content Include="Areas\Admin\Views\DonHang\ChiTietDH.cshtml" />
+    <Content Include="Areas\Admin\Views\DonHang\HienThi.cshtml" />
+    <Content Include="Areas\Admin\Views\DoanhThu\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\QLDM\HienThiDanhMuc.cshtml" />
+    <Content Include="Areas\Admin\Views\QLDM\TaoDM.cshtml" />
+    <Content Include="Areas\Admin\Views\QLDM\CapNhatDM.cshtml" />
+    <Content Include="Areas\Admin\Views\QLSP\HienThiSanPham.cshtml" />
+    <Content Include="Areas\Admin\Views\QLSP\TaoSP.cshtml" />
+    <Content Include="Areas\Admin\Views\QLSP\CapNhatSP.cshtml" />
+    <Content Include="Areas\Admin\Views\QLTH\HienThiThuongHieu.cshtml" />
+    <Content Include="Areas\Admin\Views\QLTH\TaoTH.cshtml" />
+    <Content Include="Areas\Admin\Views\QLTH\CapNhatTH.cshtml" />
+    <Content Include="Areas\Admin\Views\QuanLyKhoHang\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\QuanLyKhoHang\ChonSanPham.cshtml" />
+    <Content Include="Areas\Admin\Views\QuanLyKhoHang\AddKhoHang.cshtml" />
+    <Content Include="Models\ShopQuanAo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>ShopQuanAo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Models\ShopQuanAo.dbml.layout">
+      <DependentUpon>ShopQuanAo.dbml</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
@@ -203,7 +303,15 @@
     <Content Include="plugins\themify-icons\fonts\themify.eot" />
     <Content Include="plugins\themify-icons\fonts\themify.ttf" />
     <Content Include="plugins\themify-icons\fonts\themify.woff" />
+    <Content Include="Views\DangNhap\Login_NguoiDung.cshtml" />
+    <Content Include="Views\DangNhap\DangKy_NguoiDung.cshtml" />
+    <Content Include="Views\DangNhap\XacNhanRole.cshtml" />
+    <Content Include="Views\DangNhapAdmin\Login_Admin.cshtml" />
+    <Content Include="Views\ThongTin\ThongTinNguoiDung.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\GioHang\Index.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\DetailSanPham.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -213,13 +321,17 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
   <ProjectExtensions>

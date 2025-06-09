@@ -1,7 +1,264 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Index";
 }
+@model List<Nhom05_QuanLyShopQuanAo.Models.SanPham>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/1.css" rel="stylesheet" type="text/css" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    
+</head>
 
-<h2>Index</h2>
+<body>
+    <div class="custom-container">
+        <div class="container">
+            <div class="wrapper-heading-home">
+                <h2 class="subheading">SẢN PHẨM MỚI</h2>
+                <div class="tab-title">
+                    <ul class="box-tabs nav-tabs tabbernav_product" id="ajax-tab-collection">
+                        <li class="active">
+                            <a href="#tab1" data-toggle="tab" class="tab-link" data-handle="ao-khoac">Áo Khoác</a>
+                        </li>
+                        <li>
+                            <a href="#tab2" data-toggle="tab" class="tab-link" data-handle="ao-thun">Áo Thun</a>
+                        </li>
+                        <li>
+                            <a href="#tab3" data-toggle="tab" class="tab-link" data-handle="quan-short">Quần Short</a>
+                        </li>
+                        <li>
+                            <a href="#tab4" data-toggle="tab" class="tab-link" data-handle="so-mi">Sơ Mi</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-content tabs-products">
+                <!-- Tab 1 - Mã danh mục 1 -->
+                <div class="tab-item active" id="tab1">
+                    <div class="listProduct-carousel--overflow">
+                        <div class="owl-carousel">
+                            @foreach (var product in ViewBag.Tab1Products)
+                            {
+                                <div class="product-block" data-anmation="@product.MaSanPham">
+                                    <div class="product-img fade-box">
+                                        <a href="@Url.Action("DetailSanPham", "Home", new { id = product.MaSanPham })"
+                                           title="@product.TenSanPham" class="image-resize">
+                                            <picture>
+                                                <img src="/images/QuanAo/@product.Anh"
+                                                     alt="@product.TenSanPham"
+                                                     style="max-width: 100%; height: auto;" />
+                                            </picture>
+                                        </a>
+                                        <div class="button-add">
+                                            <form action="@Url.Action("ThemVaoGioHang", "GioHang")" method="post">
+                                                <input type="hidden" name="maSanPham" value="@product.MaSanPham" />
+                                                <button type="submit" title="Thêm vào giỏ" class="action add-to-cart">
+                                                    Thêm vào giỏ
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="product-detail clearfix">
+                                        <div class="box-pro-detail">
+                                            <h3 class="pro-name">
+                                                <a href="@Url.Action("DetailSanPham", "Home", new { id = product.MaSanPham })"
+                                                   title="@product.TenSanPham">
+                                                    @product.TenSanPham
+                                                </a>
+                                            </h3>
+                                            <div class="box-pro-prices">
+                                                <p class="pro-price">
+                                                    @String.Format("{0:C}", product.Gia)
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
 
+                <!-- Tab 2 - Mã danh mục 2 -->
+                <div class="tab-item" id="tab2">
+                    <div class="listProduct-carousel--overflow">
+                        <div class="owl-carousel">
+                            @foreach (var product in ViewBag.Tab2Products)
+                            {
+                                <div class="product-block" data-anmation="@product.MaSanPham">
+                                    <div class="product-img fade-box">
+                                        <a href="@Url.Action("DetailSanPham", "Home", new { id = product.MaSanPham })"
+                                           title="@product.TenSanPham" class="image-resize">
+                                            <picture>
+                                                <img src="/images/QuanAo/@product.Anh"
+                                                     alt="@product.TenSanPham"
+                                                     style="max-width: 100%; height: auto;" />
+                                            </picture>
+                                        </a>
+                                        <div class="button-add">
+                                            <form action="@Url.Action("ThemVaoGioHang", "GioHang")" method="post">
+                                                <input type="hidden" name="maSanPham" value="@product.MaSanPham" />
+                                                <button type="submit" title="Thêm vào giỏ" class="action add-to-cart">
+                                                    Thêm vào giỏ
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="product-detail clearfix">
+                                        <div class="box-pro-detail">
+                                            <h3 class="pro-name">
+                                                <a href="@Url.Action("DetailSanPham", "Home", new { id = product.MaSanPham })"
+                                                   title="@product.TenSanPham">
+                                                    @product.TenSanPham
+                                                </a>
+                                            </h3>
+                                            <div class="box-pro-prices">
+                                                <p class="pro-price">
+                                                    @String.Format("{0:C}", product.Gia)
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 3 - Mã danh mục 3 -->
+                <div class="tab-item" id="tab3">
+                    <div class="listProduct-carousel--overflow">
+                        <div class="owl-carousel">
+                            @foreach (var product in ViewBag.Tab3Products)
+                            {
+                                <div class="product-block" data-anmation="@product.MaSanPham">
+                                    <div class="product-img fade-box">
+                                        <a href="@Url.Action("DetailSanPham", "Home", new { id = product.MaSanPham })"
+                                           title="@product.TenSanPham" class="image-resize">
+                                            <picture>
+                                                <img src="/images/QuanAo/@product.Anh"
+                                                     alt="@product.TenSanPham"
+                                                     style="max-width: 100%; height: auto;" />
+                                            </picture>
+                                        </a>
+                                        <div class="button-add">
+                                            <form action="@Url.Action("ThemVaoGioHang", "GioHang")" method="post">
+                                                <input type="hidden" name="maSanPham" value="@product.MaSanPham" />
+                                                <button type="submit" title="Thêm vào giỏ" class="action add-to-cart">
+                                                    Thêm vào giỏ
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="product-detail clearfix">
+                                        <div class="box-pro-detail">
+                                            <h3 class="pro-name">
+                                                <a href="@Url.Action("DetailSanPham", "Home", new { id = product.MaSanPham })"
+                                                   title="@product.TenSanPham">
+                                                    @product.TenSanPham
+                                                </a>
+                                            </h3>
+                                            <div class="box-pro-prices">
+                                                <p class="pro-price">
+                                                    @String.Format("{0:C}", product.Gia)
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 4 - Mã danh mục 4 -->
+                <div class="tab-item" id="tab4">
+                    <div class="listProduct-carousel--overflow">
+                        <div class="owl-carousel">
+
+                            @foreach (var product in ViewBag.Tab4Products)
+                            {
+                                <div class="product-block" data-anmation="@product.MaSanPham">
+                                    <div class="product-img fade-box">
+                                        <a href="@Url.Action("DetailSanPham", "Home", new { id = product.MaSanPham })"
+                                           title="@product.TenSanPham" class="image-resize">
+                                            <picture>
+                                                <img src="/images/QuanAo/@product.Anh"
+                                                     alt="@product.TenSanPham"
+                                                     style="max-width: 100%; height: auto;" />
+                                            </picture>
+                                        </a>
+                                        <div class="button-add">
+                                            <form action="@Url.Action("ThemVaoGioHang", "GioHang")" method="post">
+                                                <input type="hidden" name="maSanPham" value="@product.MaSanPham" />
+                                                <button type="submit" title="Thêm vào giỏ" class="action add-to-cart">
+                                                    Thêm vào giỏ
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="product-detail clearfix">
+                                        <div class="box-pro-detail">
+                                            <h3 class="pro-name">
+                                                <a href="@Url.Action("DetailSanPham", "Home", new { id = product.MaSanPham })"
+                                                   title="@product.TenSanPham">
+                                                    @product.TenSanPham
+                                                </a>
+                                            </h3>
+                                            <div class="box-pro-prices">
+                                                <p class="pro-price">
+                                                    @String.Format("{0:C}", product.Gia)
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: { items: 1 },
+                    600: { items: 2 },
+                    1000: { items: 3 },
+                    1200: { items: 4 }
+                }
+            });
+
+            // Tab switching
+            $('.tab-link').on('click', function (e) {
+                e.preventDefault();
+
+                // Đổi tab
+                $('.tab-link').parent().removeClass('active');
+                $(this).parent().addClass('active');
+
+                // Hiện tab tương ứng
+                var targetTab = $(this).attr('href');
+                $('.tab-item').hide();
+                $(targetTab).show();
+            });
+
+            // Hiển thị tab mặc định
+            $('.tab-item').hide();
+            $('#tab1').show();
+        });
+    </script>
+
+</body>
+</html>
